@@ -1,0 +1,23 @@
+{
+  "name": "furniture-store",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zark6835/Furniture-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zark6835/Furniture-store/issues"
+  },
+  "homepage": "https://github.com/zark6835/Furniture-store#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
