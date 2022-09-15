@@ -1,0 +1,46 @@
+$white: #ffffff;
+$bleck: #1e1e1e;
+$orange: #e58411;
+$yellow: #f6b76f;
+$gray: #8d8d8d;
+$blue: #0d1b39;
+$light-yellow: #f6973f;
+$grat-bg: #f7f7f7;
+
+* {
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+}
+
+.bg__img {
+  width: 100%;
+  height: 1084px;
+  background: url(../img/bg__img.png) center no-repeat;
+  background-size: cover;
+}
+
+.contyner {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.logo {
+  text-decoration: none;
+  text-transform: capitalize;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+
+  color: $white;
+}
+
+@media screen and (max-width: 800px) {
+  .bg__img {
+    width: 100%;
+    height: 812px;
+    background: url(../img/bg__img-mobile.png) center no-repeat;
+    background-size: cover;
+  }
+}

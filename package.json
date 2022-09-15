@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/zark6835/Furniture-store#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0"
   }
 }

@@ -3,6 +3,8 @@
 .DSstore/**/*
 
 node_modules/**/*
+.parcel-cache/**/*
+dist/**/*
 
 .xml
 .iml
