@@ -63,6 +63,10 @@ $orange: #e58411;
 }
 
 @media screen and (max-width: 800px) {
+  .navigation__wraper{
+    padding: 40px 12px 105px;
+  }
+
   .navigation__menu{
     display: none;
   }
@@ -95,7 +99,4 @@ $orange: #e58411;
     background-color: #ffffff;
   }
 
-  .burger__menu-item{
-    
-  }
 }

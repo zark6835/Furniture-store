@@ -1,6 +1,6 @@
 .nav__wrapper {
   text-align: center;
-  padding: 40px 12px;
+  padding: 40px 12px 322px;
 }
 
 .service-title {
@@ -63,6 +63,10 @@
 }
 
 @media screen and (max-width: 800px) {
+  .nav__wrapper{
+    padding: 105px 12px 218px;
+  }
+  
   .service-title{
     font-size: 28px;
   }

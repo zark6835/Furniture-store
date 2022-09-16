@@ -36,6 +36,14 @@ $grat-bg: #f7f7f7;
   color: $white;
 }
 
+.section__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 63px;
+
+  color: $bleck;
+}
+
 @media screen and (max-width: 800px) {
   .bg__img {
     width: 100%;
@@ -43,4 +51,9 @@ $grat-bg: #f7f7f7;
     background: url(../img/bg__img-mobile.png) center no-repeat;
     background-size: cover;
   }
+
+  .section__title{
+    line-height: 51px;
+  }
 }
+ 
