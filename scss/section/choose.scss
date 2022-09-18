@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   gap: 50px;
-  padding: 322px 12px 60px;
+  padding: 322px 12px 120px;
 }
 
 .choose__card-wrapper {
@@ -49,7 +49,7 @@
   color: #e58411;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1200px) {
   .choose__wrapper{
     justify-content: center;
   }
@@ -75,7 +75,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 60;
-    padding: 218px 12px 40px;
+    padding: 218px 12px 80px;
   }
 
   .choose__card-wrapper {
@@ -96,9 +96,3 @@
     font-weight: 700;
   }
 }
-
-//grid-template-columns: repeat(2, 284px);
-
-//width: 600px;
-//display: flex;
-//align-items: center;

@@ -1,0 +1,161 @@
+.assortment__bg {
+  background: #f7f7f7;
+}
+
+.assortment__wrapper {
+  padding: 50px 12px;
+}
+.assortment__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+}
+
+.assortement__menu-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.assortement__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 348px;
+  height: 57px;
+  padding: 6px;
+  background: #eeeeee;
+  border-radius: 44px;
+}
+
+.assortement__menu-link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 185%;
+  opacity: 0.8;
+
+  color: #1e1e1e;
+}
+
+.assortement__card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 268.09px);
+  column-gap: 42px;
+  justify-content: center;
+  padding: 130px 0 60px;
+}
+
+.img-card {
+  position: relative;
+  height: 239.15px;
+  border-radius: 20px 20px 0 0;
+  background: #fafafa;
+}
+
+.img-style {
+  position: absolute;
+  bottom: 34px;
+  left: 25px;
+}
+
+.assortement__card {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  padding: 14px 22px 38px;
+  border-radius: 0 0 20px 20px;
+  background: #ffffff;
+}
+
+.furniture-card {
+  font-size: 16.7554px;
+  line-height: 25px;
+
+  color: #8d8d8d;
+}
+.furniture-card-name {
+  padding: 6px 0;
+  text-transform: capitalize;
+
+  font-weight: 600;
+  font-size: 21.3251px;
+  line-height: 32px;
+
+  color: #0d1b39;
+}
+
+
+
+.basket__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dollar__style {
+  font-weight: 600;
+  font-size: 15.2322px;
+  line-height: 23px;
+
+  color: #0d1b39;
+}
+
+.price {
+  display: flex;
+  gap: 3px;
+}
+
+.price__style {
+  font-weight: 600;
+  font-size: 21.3251px;
+  line-height: 32px;
+
+  color: #0d1b39;
+}
+
+.assortement__link-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.assortement__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+}
+.assortement__link-style {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 185%;
+
+  color: #e58411;
+}
+
+@media screen and (max-width: 1200px) {
+  .assortement__card-wrapper {
+    grid-template-columns: repeat(2, 268.09px);
+    row-gap: 55px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .assortment__wrapper {
+    padding: 60px 12px 36px;
+  }
+
+  .assortement__menu {
+    width: 333px;
+  }
+
+  .assortement__card-wrapper {
+    grid-template-columns: 335px;
+    row-gap: 78px;
+    padding: 110px 0 60px;
+  }
+
+  .img-style {
+    left: 60px;
+}
+}
