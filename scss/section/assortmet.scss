@@ -5,6 +5,7 @@
 .assortment__wrapper {
   padding: 50px 12px;
 }
+
 .assortment__block {
   display: flex;
   flex-direction: column;
@@ -85,8 +86,6 @@
   color: #0d1b39;
 }
 
-
-
 .basket__link {
   display: flex;
   align-items: center;
@@ -157,5 +156,5 @@
 
   .img-style {
     left: 60px;
-}
+  }
 }

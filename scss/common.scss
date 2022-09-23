@@ -24,6 +24,10 @@ $grat-bg: #f7f7f7;
   margin: 0 auto;
 }
 
+.mobile__extension{
+  display: none;
+}
+
 .logo {
   text-decoration: none;
   text-transform: capitalize;
@@ -37,12 +41,37 @@ $grat-bg: #f7f7f7;
 }
 
 .section__title {
-  text-align: center;
   font-weight: 700;
   font-size: 42px;
   line-height: 63px;
 
   color: $bleck;
+}
+
+.subsection__title {
+  text-transform: uppercase;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.175em;
+
+  color: #e58411;
+}
+
+.choose__card-link {
+  text-decoration: none;
+  display: flex;
+  gap: 11.5px;
+  width: 116px;
+}
+
+.card-link-style {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 185%;
+
+  color: #e58411;
 }
 
 @media screen and (max-width: 800px) {
@@ -53,8 +82,7 @@ $grat-bg: #f7f7f7;
     background-size: cover;
   }
 
-  .section__title{
+  .section__title {
     line-height: 51px;
   }
 }
- 

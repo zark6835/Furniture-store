@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   gap: 50px;
-  padding: 322px 12px 120px;
+  padding: 120px 12px 120px;
 }
 
 .choose__card-wrapper {
@@ -32,21 +32,6 @@
   opacity: 0.8;
 
   color: #1e1e1e;
-}
-
-.choose__card-link {
-  text-decoration: none;
-  display: flex;
-  gap: 11.5px;
-  width: 116px;
-}
-
-.card-link-style {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 185%;
-
-  color: #e58411;
 }
 
 @media screen and (max-width: 1200px) {
