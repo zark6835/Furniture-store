@@ -1,0 +1,176 @@
+.reviews__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 130px 12px 122px;
+}
+
+.reviews__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+
+.reviews__cards-wrapper {
+  position: relative;
+  display: grid;
+  background-size: cover;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 370px);
+  grid-template-rows: 476px;
+}
+
+.scroll__left{
+  position: absolute;
+  z-index: 2;
+  top: 144px;
+  left: -50px;
+}
+
+.reviews__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+
+  padding: 18px;
+
+  border-radius: 18.1182px;
+}
+
+.reviews__card-background {
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+  padding: 18px 35px;
+
+  background: rgba(255, 255, 255, 255);
+  border-radius: 18.1182px;
+}
+
+.card__information-person {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.reviews__card-name {
+  text-align: center;
+  text-transform: capitalize;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #1e1e1e;
+}
+
+.reviews__card-subname {
+  text-align: center;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  opacity: 0.6;
+
+  color: #1e1e1e;
+}
+
+.reviews__card-comment {
+  text-align: center;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  opacity: 0.8;
+
+  color: #1e1e1e;
+}
+
+.scroll__right{
+  position: absolute;
+  z-index: 2;
+  top: 144px;
+  right: -50px;
+}
+
+
+.reviews__scroll-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .reviews__cards-wrapper {
+    display: grid;
+    background-size: cover;
+    justify-content: center;
+    grid-template-columns: repeat(2, 370px);
+    grid-template-rows: 476px;
+    gap: 40px;
+  }
+  
+  .scroll__left{
+    display: none;
+  }
+
+  .reviews__mobile-extension {
+    display: none;
+  }
+
+  .scroll__right{
+    display: none;
+  }
+
+  .reviews__scroll-mobile{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding: 40px 12px;
+  }
+
+  .reviews__cards-wrapper {
+    display: grid;
+    background-size: cover;
+    justify-content: center;
+    grid-template-columns: repeat(1, 335.8px);
+    grid-template-rows: 432px;
+  }
+
+  .reviews__card-background {
+    gap: 4px;
+    padding: 14px 23px;
+  }
+
+  .card__information-person {
+    display: initial;
+  }
+
+  .reviews__card-name {
+    padding-top: 13px;
+    line-height: 27px;
+  }
+
+  .reviews__card-subname {
+    line-height: 18px;
+  }
+
+  .reviews__card-comment {
+    padding-top: 4px;
+    line-height: 21px;
+  }
+
+  .reviews__mobile-extension2 {
+    display: none;
+  }
+}
