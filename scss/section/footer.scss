@@ -1,0 +1,163 @@
+.footer__wraper {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+
+  padding: 118px 12px 55px;
+  margin-top: 122px;
+}
+
+.footer__information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column1 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 300px;
+}
+
+.footer__logo {
+  color: #1e1e1e;
+}
+
+.footer__rent {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  opacity: 0.8;
+
+  color: #1e1e1e;
+}
+
+.footer__column-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 133px);
+  column-gap: 110px;
+}
+
+.footer__column2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer__name-column {
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: -0.231818px;
+
+  color: #f6973f;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  opacity: 0.8;
+
+  color: #1e1e1e;
+}
+
+.social__networks1 {
+  display: flex;
+  padding-left: 5px;
+  gap: 16px;
+}
+
+.social__networks2 {
+  display: flex;
+  gap: 12px;
+}
+
+.social__networks3 {
+  display: flex;
+  gap: 10px;
+}
+
+.privacy__policy-mobile {
+  display: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright__style {
+  mix-blend-mode: normal;
+  min-width: 123px;
+
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.204545px;
+  opacity: 0.5;
+
+  color: #1e2833;
+}
+
+.social__networks-mobile {
+  display: none;
+}
+
+.privacy__policy {
+  display: flex;
+  min-width: 150px;
+  gap: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__information {
+    justify-content: center;
+    gap: 114px;
+  }
+
+  .footer__column-grid {
+    grid-template-columns: repeat(2, 133px);
+    row-gap: 45px;
+  }
+
+  .copyright {
+    justify-content: center;
+    gap: 520px;
+  }
+
+  .privacy__policy {
+    display: inline;
+    text-align: end;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer__wraper {
+    gap: 45px;
+
+    margin-top: 40px;
+    padding: 60px 12px 13px;
+  }
+
+  .footer__information {
+    align-items: center;
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .footer__column-grid {
+    align-items: end;
+
+    column-gap: 35px;
+    row-gap: 35px;
+  }
+
+  .privacy__policy-mobile {
+    display: block;
+  }
+
+  .privacy__policy-desktop {
+    display: none;
+  }
+}
